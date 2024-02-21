@@ -1,0 +1,16 @@
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding:  20px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-icons a {
+    margin-left:  10px;
+  }
+  
