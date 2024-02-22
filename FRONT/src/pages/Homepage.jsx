@@ -4,7 +4,7 @@ import Home from "../components/home/home";
 import Footer from "../components/footer/footer";
 
 
-const Landing = () => {
+const Homepage = () => {
     
     return (
       <>
@@ -20,4 +20,4 @@ const Landing = () => {
     )
   };
 
-  export default Landing;
+  export default Homepage;

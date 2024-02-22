@@ -1,7 +1,7 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
 
-export const Detail = () => {
+export default function Detail()  {
   return (
     <div className="detailContainer">
       Detalle

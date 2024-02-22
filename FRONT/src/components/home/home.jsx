@@ -3,18 +3,17 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <div className="home">
-      <div className="homeTitles">
-        <span className="homeTitleSm">Tus libros se merecen una </span>
+    <div className="header">
+      <div className="headerTitles">
+        <span className="headerTitleSm">Tus libros se merecen una</span>
         <span className="headerTitleLg">Segunda Tinta</span>
       </div>
-      {/* <img
+      <img
         className="headerImg"
-        src="https://images.unsplash.com/flagged/photo-1585745540837-ec55409a515d?q=80&w=2021&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt=""
-      /> */}
+      />
     </div>
   );
 }
-
 export default Home;
