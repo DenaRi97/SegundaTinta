@@ -17,10 +17,10 @@ const Header = () => {
 
         <div className="navbar-navigation">
           <ul className="links">
-            <li> <a href=""> </a>Home</li>
-            <li> <a href=""> </a>Galeria</li>
-            <li> <a href=""> </a>Contacto</li>
-            <li> <a href=""> </a>Venta</li>
+            <li> <a href="/">Home</a></li>
+            <li> <a href="/gallery">Galeria</a></li>
+            <li> <a href="/contact">Contacto</a></li>
+            <li> <a href="/venta">Venta</a></li>
           </ul>
         </div>
       </div>
