@@ -7,7 +7,7 @@ import React from "react";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 import "./navdropdown.css";
 
-const NavDropdown = () => {
+const Header = () => {
   return (
 
       <div className="navbar-container">
@@ -28,4 +28,4 @@ const NavDropdown = () => {
   );
 }
 
-export default NavDropdown;
+export default Header;
