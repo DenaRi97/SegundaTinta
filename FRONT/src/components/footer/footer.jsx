@@ -9,6 +9,7 @@ import instagram from '../../assets/icons/instagram.svg';
 const Footer = () => {
   return (
     <>
+    <Footer>
     <div className='footer-container'>
         <div className="footer-copyright" >
            
@@ -35,6 +36,7 @@ const Footer = () => {
             </div>
         </div>
     </div>
+    </Footer>
     </>
 
 
