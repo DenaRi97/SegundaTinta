@@ -27,10 +27,22 @@ We created a marketplace to give books a second life.
 * Install dependencies:
 
   ```npm install```
+  ```npm install react-router-dom```
+  ```npm install bootstrap```
+  
+** REST API
+  
+  ```npm install -g json-server```
+  ```json-server --watch db.json```
 
-* Run the serve:
-
+* Run the FRONEND server:
+  (From inside FRONT folder)
   ```npm run dev```
+
+* Run the API server:
+  (From inside FRONT folder)
+  ```npm run api```
+
 
 * Enjoy!
 
