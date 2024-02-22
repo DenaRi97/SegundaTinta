@@ -4,6 +4,8 @@ import Showcase from './pages/Showcase';
 import Product from './pages/Product';
 import Contact from './pages/Contact';
 import Homepage from './pages/Homepage';
+import Selling from './pages/Selling';
+
 function App() {
 
   return (
@@ -13,6 +15,7 @@ function App() {
       <Route path="/gallery" element={<Showcase/>}></Route>
       <Route path="/product" element={<Product/>}></Route>
       <Route path="/contact" element={<Contact/>}></Route>
+      <Route path="/sale" element={<Selling/>}></Route>
     </Routes>
     </BrowserRouter>
   )

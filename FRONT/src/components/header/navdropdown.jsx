@@ -1,4 +1,4 @@
-import React from "react";
+
 // import Button from "react-bootstrap/Button";
 // import Container from "react-bootstrap/Container";
 // import Form from "react-bootstrap/Form";
@@ -13,14 +13,14 @@ const Header = () => {
       <div className="navbar-container">
         <div className="navbar-logo">
         <img src="../../../Segunda.png" alt="Logo-segunda-tinta" />
-        </div>
+      </div>
 
         <div className="navbar-navigation">
           <ul className="links">
-            <li> <a href=""> </a>Home</li>
-            <li> <a href=""> </a>Galeria</li>
-            <li> <a href=""> </a>Contacto</li>
-            <li> <a href=""> </a>Venta</li>
+            <li> <a href="/">Home</a></li>
+            <li> <a href="/gallery">Galeria</a></li>
+            <li> <a href="/contact">Contacto</a></li>
+            <li> <a href="/sale">Venta</a></li>
           </ul>
         </div>
       </div>
