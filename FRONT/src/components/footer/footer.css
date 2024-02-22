@@ -1,6 +1,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap'); */
 
 .footer-container {
+    position: fixed;
+    bottom: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
