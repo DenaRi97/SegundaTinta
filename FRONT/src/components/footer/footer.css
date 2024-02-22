@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
 
 .footer {
+    height: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding:  20px;
+    background-color: #489669;
+    color: white;
+    font-family: "Ribeye Marrow", serif;
+  }
+
+  .footer-copyright {
+    text-align: left;
   }
   
   .footer-icons {
+    text-align: right;
     display: flex;
     justify-content: flex-end;
   }
