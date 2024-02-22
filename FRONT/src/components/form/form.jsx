@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.css";
+// import "bootstrap/dist/js/bootstrap.bundle.css";
 
-const Formulario = () => {
+const Form = () => {
   return (
     <form>
       <h1>Contactanos</h1>
@@ -50,4 +50,4 @@ const Formulario = () => {
   );
 };
 
-export default Formulario;
+export default Form;
