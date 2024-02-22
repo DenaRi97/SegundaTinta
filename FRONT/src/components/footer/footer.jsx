@@ -1,41 +1,38 @@
-import React from 'react';
 import './footer.css';
 
 import facebook from '../../assets/icons/facebook.svg';
 import twitter from '../../assets/icons/x-twitter.svg';
 import instagram from '../../assets/icons/instagram.svg';
-import linkedin from '../../assets/icons/linkedin.svg';
-import github from '../../assets/icons/github.svg';
+import copyright from '../../assets/icons/copyright.svg'
 
 
 const Footer = () => {
   return (
 
-  <FooterContainer>
-    <div className="footer-copyright" />
-       <img src={Copyright} alt="Copyright" />
+  <Footer>
+    <>
+    <div className="footer-copyright" >
+
+       <img src={copyright} alt="Copyright" />
         <p>Todos los derechos reservados - Segunda Tinta</p>
     </div>
 
     <div className="footer-icons">
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-          <img src={facebookIcon} alt="Facebook" />
+          <img src={facebook} alt="Facebook" />
         </a>
 
         <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-          <img src={twitterIcon} alt="Twitter" />
+          <img src={twitter} alt="Twitter" />
         </a>
 
         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-          <img src={instagramIcon} alt="Instagram" />
+          <img src={instagram} alt="Instagram" />
         </a>
-
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-          <img src={linkedinIcon} alt="LinkedIn" />
-        </a>
-
     </div>
-</FooterContainer>
+    </>
+</Footer>
+
   );
 };
 
