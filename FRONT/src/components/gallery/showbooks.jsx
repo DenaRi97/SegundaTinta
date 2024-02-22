@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'; // Importa React, useState y useEffect desde 'react'
-import './gallery.css'
+import './showbooks.css'
 import { useNavigate } from "react-router-dom"; // Importa useNavigate para la navegación
 import { getBooks } from '../services/service'; // Importa funciones para obtener y eliminar libros desde el servicio
 
