@@ -1,0 +1,55 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap'); */
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #489669;
+    color: white;
+    font-family: "Ribeye Marrow", serif;
+  }
+
+  .footer-copyright {
+    display: flex;
+    gap: 12%;
+    text-align: left;
+    width: 10%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-copyright img {
+    width: 8px;
+  }
+
+  .footer-copyright p{
+    text-align: left;
+    font-size: 6px;
+    margin-right: 100%;
+  }
+  
+  .footer-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12%;
+    text-align: left;
+    width: 30%;
+    padding: 0px;
+    margin: 0px;
+  }
+ 
+.icons {
+    width: 8%;
+    padding: 0px;
+    margin: 0px;
+    background-color: aqua;
+}
+
+  .footer-icons a {
+    margin: 0;
+    padding: 0;
+  }
+  
