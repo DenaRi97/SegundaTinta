@@ -1,69 +1,10 @@
-body {
-    margin: 0; /* Estilo para el cuerpo del documento */
-}
-
-.title-gallery {
-    text-align: center; /* Estilos para el título de la galería */
-    font-family: 'Jost', sans-serif;
-    font-size: 125%; /* Tamaño del texto */
-    text-shadow: 4px 4px 4px #D9D9D9; /* Sombra del texto */
-    text-transform: uppercase; /* Transforma el texto a mayúsculas */
-}
-
-.background-img {
-    width: 100%; /* Ancho de la imagen de fondo */
-    height: auto; /* Altura automática */
-}
-
 .gallery {
-    display: flex; /* Muestra los elementos en línea */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
-    justify-content: space-around; /* Distribuye uniformemente los elementos con espacio alrededor */
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.gallerygrid {
-    margin: 10px; /* Márgenes para la cuadrícula de la galería */
-    text-align: center; /* Alinea el contenido al centro */
+.booksimg {
+    height: 30vh;
+    width: auto;
 }
 
-.bookclesimg {
-    max-width: 17vw; /* Ancho máximo de la imagen del libro */
-    max-height: 45vh; /* Altura máxima de la imagen del libro */
-    border: 0.5rem solid #D9D9D9; /* Borde de la imagen del libro */
-    cursor: pointer; /* Cursor del ratón al pasar sobre la imagen */
-}
-
-.bookclesimg:hover {
-    transform: scale(1.1); /* Escala de la imagen al pasar el ratón sobre ella */
-    transition: 0.5s; /* Transición suave */
-}
-
-p {
-    text-align: center; /* Alineación del párrafo al centro */
-    font-family: 'Jost', sans-serif; /* Fuente del texto */
-    font-size: 100%; /* Tamaño del texto */
-    text-transform: uppercase; /* Transforma el texto a mayúsculas */
-    text-decoration: bold; /* Establece el texto en negrita */
-    text-shadow: 4px 4px 4px #D9D9D9; /* Sombra del texto */
-    padding-top: 5%; /* Espaciado superior del párrafo */
-}
-
-.gallery-button {
-    display: flex; /* Muestra los botones de la galería en línea */
-    width: 5vw; /* Ancho de los botones */
-    justify-content: space-around; /* Distribuye uniformemente los botones con espacio alrededor */
-}
-
-button img {
-    width: 50%; /* Ancho de las imágenes de los botones */
-    height: auto; /* Altura automática de las imágenes */
-}
-
-button.edit-button,
-button.delete-button {
-    background-color: transparent; /* Fondo transparente de los botones */
-    border: none; /* Sin borde */
-    cursor: pointer; /* Cursor del ratón al pasar sobre los botones */
-    margin: 0.75rem; /* Márgenes de los botones */
-    transition: 0.5s; /* Transición suave */
-}
