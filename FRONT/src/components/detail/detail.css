@@ -1,0 +1,14 @@
+.detailContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookContainer {
+    display:flex;
+    flex-direction: row;
+}
+
+.bookRightContainer {
+    display: flex;
+    flex-direction: column;
+}
