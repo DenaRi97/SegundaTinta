@@ -4,15 +4,15 @@ import Home from "../components/home/home";
 import Footer from "../components/footer/footer";
 
 const Contact = () => {
-  return (
-    <>
-      <Header />
-      <div className="contact">
-        <form />
-      </div>
-      <Footer />
-    </>
-  );
+    return (
+        <>
+        <Header />
+        <div className="contact">
+            <form />
+        </div>
+        <Footer />
+        </>
+    );
 };
 
 export default Contact;
