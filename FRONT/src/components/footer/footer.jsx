@@ -3,18 +3,19 @@ import './footer.css';
 import facebook from '../../assets/icons/facebook.svg';
 import twitter from '../../assets/icons/x-twitter.svg';
 import instagram from '../../assets/icons/instagram.svg';
-import copyright from '../../assets/icons/copyright.svg'
+//import copyright from '../../assets/icons/copyright.svg'
 
 
 const Footer = () => {
   return (
 
-//   <Footer>
+
     <>
+    <Footer>
     <div className='footer-container'>
         <div className="footer-copyright" >
-            <img src={copyright} alt="Copyright" />
-            <p>Todos los derechos reservados - Segunda Tinta</p>
+           
+            <p> &copy;Todos los derechos reservados - Segunda Tinta</p>
         </div>
 
         <div className="footer-icons">
@@ -37,8 +38,9 @@ const Footer = () => {
             </div>
         </div>
     </div>
+    </Footer>
     </>
-// </Footer>
+
 
   );
 };
